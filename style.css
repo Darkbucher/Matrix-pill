@@ -1,0 +1,88 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   color: #ffffff;
+   overflow: hidden;
+}
+
+.background-video {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+}
+
+#video-bg {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.container {
+   position: relative;
+   text-align: center;
+   z-index: 1;
+   padding-top: 6%;
+}
+.title {
+   font-size: 3rem;
+   margin-bottom: -20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #c3c1b5;
+   position: relative;
+   display: inline-block;
+   padding: 20px 40px;
+   background-color: rgba(194, 187, 176, 0.113);
+   backdrop-filter: blur(5px);
+   border-radius: 20px;
+}
+
+
+.description {
+   font-size: 1.2rem;
+   line-height: 1.6;
+   margin-bottom: 8px;
+   color: rgba(253, 203, 203, 0.412);
+   text-shadow: #626160 1px 4px;
+}
+
+.pill-images {
+   position: fixed;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding-bottom: 40px;
+}
+
+.pill-gif {
+   width: 250px;
+   height: auto;
+   margin: 0 20px;
+   cursor: pointer;
+   rotate:  90deg;
+   
+}
+
+
+/* On hover effect for pills */
+.pill-gif:hover {
+   filter: brightness(250%);
+   
+}
+
+.pill-gif.red:hover {
+   filter: hue-rotate(-30deg);
+  
+}
+
+.pill-gif.blue:hover {
+   filter: hue-rotate(30deg);
+  
+}
