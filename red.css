@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: hsl(0, 29%, 95%);
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0000; /* Red color */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff0000; /* Red color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #540000; /* Darker shade of red */
+}
